@@ -1,0 +1,157 @@
+body {
+    font-family: 'Marvel', sans-serif;
+    background: linear-gradient(to bottom, #A31621 65%, #1D1E1F 50%);
+}
+
+h1, h2{
+    text-align: center;
+    color: #FCF7F8;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-left: 9rem;
+    width: 90%;
+    
+}
+.card-img-top{
+    height: 46%;
+}
+
+.card-body{
+    background-color: peru;
+    height: 50%;
+    border-radius: 2px;
+}
+
+.main-header{
+    position: relative;
+    background-color: #1D1E1F;
+}
+.main-header >img{
+    position: relative;
+    left: 32%;
+}
+
+.card-text{
+    padding-top: 0.5rem;
+}
+
+/* Media Queries */
+
+
+
+/* small screen */
+
+@media only screen and (max-width: 600px) {
+    .main-header >img{
+        position: relative;
+        left: 25%;
+        width: 50%;
+    }
+ h1,h2{
+    padding: 10px;
+ }
+ .card{
+    margin: 10px;
+ }
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 9rem;
+        width: 90%;
+        
+    }
+} 
+
+/* medium screen */
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .main-header >img{
+        position: relative;
+        left: 25%;
+        width: 50%;
+    }
+ h1,h2{
+    padding: 10px;
+ }
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 9rem;
+        width: 90%;
+        
+    }
+    .card{
+        margin: 10px;
+     }
+} 
+
+/* Large screen */
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .main-header >img{
+        position: relative;
+        left: 25%;
+        width: 50%;
+    }
+ h1,h2{
+    padding: 10px;
+ }
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 9rem;
+        width: 90%;
+        
+    }
+    .card{
+        margin: 10px;
+     }
+} 
+/* Extra large screen */
+
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .main-header >img{
+        position: relative;
+        left: 25%;
+        width: 50%;
+    }
+ h1,h2{
+    padding: 10px;
+ }
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-left: 9rem;
+        width: 90%;
+        
+    }
+    .card{
+        margin: 10px;
+     }
+} 
+
+/* Extra Extra large screen */
+
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+    .main-header >img{
+        position: relative;
+        left: 25%;
+        width: 50%;
+    }
+ h1,h2{
+    padding: 10px;
+ }
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        margin-left: 9rem;
+        width: 90%;
+        
+    }
+    .card{
+        margin: 10px;
+     }
+} 
