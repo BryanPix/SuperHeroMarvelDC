@@ -7,6 +7,14 @@ h1, h2{
     text-align: center;
     color: #FCF7F8;
 }
+.titleMarvel{
+    margin-bottom: 8rem;
+    color: white;
+}
+.titleDC{
+    margin-top: 8rem;
+    color:white;
+}
 .main-container{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
