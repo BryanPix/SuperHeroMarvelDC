@@ -38,7 +38,7 @@ let joker = new DC ('Joker','assets/dc/joker.jpg','Jack Napier','Génie criminel
 let lexLuthor = new DC ('Lex Luthor','assets/dc/lex_luthor.jpg','Alexander Joseph Luthor ','Génie Intellectuel', 'Metropolis', 'Legion of Doom');
 let doomsday = new DC ('Doomsday','assets/dc/doomsday.jpg','Davis Bloome','Force Surhumaine', 'Krypton', 'Societé secrete des Super Villains');
 let mongul = new DC ('Lord of the Warworld','assets/dc/mongul.jpg','Mongul','Super force', 'Warworld', 'Societé secrete des Super Villains');
-let sinestro = new DC ('Sinestro','assets/dc/Sinestro.jpg','Thaal Sinestro','Anneau de la Yellow Lantern', 'Korugar', 'Sinestro Corps');
+let sinestro = new DC ('Sinestro','assets/dc/sinestro.jpg','Thaal Sinestro','Anneau de la Yellow Lantern', 'Korugar', 'Sinestro Corps');
 
 
 //Marvel Cards
